@@ -1,6 +1,33 @@
-body{font-family: "Courier New", Courier, monospace;
+body{
+  margin: 3;
+  padding: 5;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 h1 {font-family: Arial, Helvetica, sans-serif;
-background-color: #426493;
-color: #427391;
+color: #111111
+}
+
+#header {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #222222;
+}
+
+#content {
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #777777;
+}
+.color{
+  font-weight: bold;
+  color: #888888;
+}
+
+#big_django{
+  font-size: 120%;
+  font-weight: bold;
 }
